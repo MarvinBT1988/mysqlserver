@@ -3,10 +3,5 @@
   "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest", // Una imagen base
   "features": {
     "ghcr.io/cirolosapio/devcontainers-features/alpine-php-mysql:0": {} // Añade la feature del cliente MySQL
-  },
-  "extensions": [
-    "cweijan.vscode-mysql-client2" // Opcional: una extensión para interactuar con MySQL
-  ],
-  "forwardPorts": [3306], // Si te conectarás a un MySQL externo o con docker-compose
-  "postCreateCommand": "echo 'Cliente MySQL instalado!'"
+  }  
 }
