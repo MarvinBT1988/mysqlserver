@@ -1,7 +1,5 @@
 {
     "name": "Mi Proyecto",
-  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest", // Una imagen base
-  "features": {
-    "ghcr.io/cirolosapio/devcontainers-features/alpine-php-mysql:0": {} // Añade la feature del cliente MySQL
-  }  
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest" // Una imagen base
+ 
 }
